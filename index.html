@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Registration Form</title>
+</head>
+<body>
+    <h2>Course Registration Form</h2>
+    <form>
+        <label>Full Name:</label><br>
+        <input type="text" placeholder="Enter your full name" required>
+        <br><br>
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter your email" required>
+        <br><br>
+        <label>Phone Number:</label><br>
+        <input type="tel" placeholder="Enter your phone number" required>
+        <br><br>
+        <label>Department:</label><br>
+        <select required>
+            <option value="">Select Department</option>
+            <option>CSE</option>
+            <option>CSIT</option>
+            <option>AI & DS</option>
+            <option>ECE</option>
+            <option>EEE</option>
+        </select>
+        <br><br>
+        <label>Select Course:</label><br>
+        <select required>
+            <option value="">Choose a course</option>
+            <option>Web Development</option>
+            <option>Python Programming</option>
+            <option>Java Programming</option>
+            <option>Data Science</option>
+            <option>Machine Learning</option>
+        </select>
+        <br><br>
+        <label>Learning Mode:</label><br>
+        <input type="radio" name="mode" value="Online"> Online
+        <input type="radio" name="mode" value="Offline"> Offline
+        <br><br>
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
